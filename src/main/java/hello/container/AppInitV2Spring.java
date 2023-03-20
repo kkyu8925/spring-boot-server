@@ -11,7 +11,6 @@ public class AppInitV2Spring implements AppInit {
 
     @Override
     public void onStartup(ServletContext servletContext) {
-
         System.out.println("AppInitV2Spring.onStartup");
 
         // 스프링 컨테이너 생성
